@@ -13,9 +13,9 @@ import javax.ejb.Remote;
  * @author 31338283
  */
 @Remote
-public interface StatelessChatInterface {
+public interface StatefulChatInterface {
 
-    void connect();
+    void connect(String nome);
 
     void disconnect();
 
